@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icone" href="./images/bike.jpg">
+    <script src="scroll.js" defer></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        $(document).ready(function() {
+            var btn = $('#backToTop');
+            $(window).on('scroll', function() {
+                if ($(window).scrollTop() > 300) {
+                    btn.addClass('show');
+                } else {
+                    btn.removeClass('show');
+                }
+            });
+            btn.on('click', function(e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: 0
+                }, '300');
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <!-- in  this line about to bottum scroll to top -->
+    <a href="javascript:void(0);" id="backToTop" class="back-to-top" action="./top_bottum.js">
+        <i class="arrow"></i><i class="arrow"></i>
+    </a>
+
+    <!-- in this line about nav bar menu  -->
+    <div class="hero">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+            <label class="logo"> Design <span>
+                    <blod>X</blod>
+                </span></label>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Product</a></li>
+            </ul>
+            <button class="subscrip">subscrip</button>
+        </nav>
+        <h1 class="text">Adventure in Cambodia</h1>
+    </div>
+    <div class="select_option">
+        <a href="./sroll/index.html">
+            <button class="btn1"><bold>View</bold></button>
+        </a>
+        <a href="./startbootstrap-shop-homepage-gh-pages/index.html">
+            <button class=" btn2 "><blod>Product For Adventure</blod></button>
+        </a>
+
+    </div>
+    <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <ul class="carousel">
+            <li class="card">
+                <div class="img"><img src="./images/battambang.jpg" alt="img" draggable="false"></div>
+                <h2>Battambang Province</h2>
+                <span>National Road:5. <br> 291Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/compong cham.jpg" alt="img" draggable="false"></div>
+                <h2>compong cham Province</h2>
+                <span>National Road:6&7. <br> 124Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/compong chhnang.jpg" alt="img" draggable="false"></div>
+                <h2>compong chhnang province</h2>
+                <span>National Road:6&7. <br> 124Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/compot.jpg" alt="img" draggable="false"></div>
+                <h2>compot province </h2>
+                <span>National Road:3. <br> 148Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Pvay rieng.jpg" alt="img" draggable="false"></div>
+                <h2>Pvay rieng province</h2>
+                <span>National Road:1. <br> 122Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/sihanoukville.jpg" alt="img" draggable="false"></div>
+                <h2>sihanoukville province</h2>
+                <span>National Road:4. <br> 230Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/kompong Thom.jpg" alt="img" draggable="false"></div>
+                <h2>kompong Thom Province</h2>
+                <span>National Road:3. <br> 148Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Banteay Meanchey Province.jpg" alt="img" draggable="false"></div>
+                <h2>Banteay Meanchey Province</h2>
+                <span>National Road:5. <br> 359Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Pailin Province.jpg" alt="img" draggable="false"></div>
+                <h2>Pailin Province.jpg</h2>
+                <span>National Road:5. <br> 371Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Pursat Province.jpg" alt="img" draggable="false"></div>
+                <h2>Pursat Province</h2>
+                <span>National Road:5. <br> 189Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Takeo Province.jpg" alt="img" draggable="false"></div>
+                <h2>Takeo Province</h2>
+                <span>National Road:2. <br>78Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Siem Reap Province.jpg" alt="img" draggable="false"></div>
+                <h2>Siem Reap Province</h2>
+                <span>National Road:6. <br> 314Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Pvay rieng.jpg" alt="img" draggable="false"></div>
+                <h2>Donald Horton</h2>
+                <span>National Road:. <br> Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Kratie Province.jpg" alt="img" draggable="false"></div>
+                <h2>Kratie Province</h2>
+                <span>National Road: 7 &13. <br>315 Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Kaldal Province.jpg" alt="img" draggable="false"></div>
+                <h2>Kaldal Province</h2>
+                <span>National Road: 2. <br> 11 Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Mondoulkiri Province.jpg" alt="img" draggable="false"></div>
+                <h2>Donald Horton</h2>
+                <span>National Road:. <br> Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="images/img-6.jpg" alt="img" draggable="false"></div>
+                <h2>Mondoulkiri Province.jpg</h2>
+                <span>National Road:7 &13 &14. <br> Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Kampong Speu Province.jpg" alt="img" draggable="false"></div>
+                <h2>Kampong Speu Province</h2>
+                <span>National Road: 4. <br> 48 Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="./images/Oddor Meanchey province.jpg" alt="img" draggable="false"></div>
+                <h2>Oddor Meanchey province</h2>
+                <span>National Road: 5. <br>469 Km From PP</span>
+            </li>
+            <li class="card">
+                <div class="img"><img src="." alt="img" draggable="false"></div>
+                <h2>Donald Horton</h2>
+                <span>National Road:. <br> Km From PP</span>
+            </li>
+
+        </ul>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+    </div>
+    <!-- In this line say about the WHO AM I?  -->
+    <div class="contact-us">
+        <div class="for-my-team">
+            <h3 style="text-align: center;padding:20px">Contact Us</h3>
+            <img src="./images/bike.jpg" style="width: 50%; text-align:center;margin-left: 25%; border-radius: 8px;">
+            <div class="title-contactUS" style="width: 60%; text-align:center; background-color:beige;margin-left:21%">
+                <h4>
+                    And then, they provide recommendations of what answers you might be looking for, as well as top categories and topics. They also have buttons for a live chat and a phone number that gives you a personal code so the customer service representative can
+                    easily pull up your account. Netflix is an excellent example of personalized customer service. easily pull up your account. Netflix is an excellent example of personalized customer service.
+                </h4>
+            </div>
+        </div>
+        <!-- In this line say about the WHO AM I?  -->
+        <div class="form-input-user">
+            <form>
+                <div class="container" style="text-align: center;">
+                    <h2>Who we are </h2>
+                    <h1>Register</h1>
+                    <hr>
+
+                    <label for="email"><b>Email</b></label><br>
+                    <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw" id="psw" required><br>
+
+                    <label for="psw-repeat"><b>Repeat Password</b></label><br>
+                    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required><br>
+                    <button type="submit" class="registerbtn">Register</button>
+                    <p>Already have an account? <a href="#">Sign in</a>.</p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- IN this line say aboout the advantage of the adventure -->
+    <div class="advantages">
+        <div class="overview">
+            <div class="col-1">
+                <img src="./images/advantage.jpg" style="width: 250px;height:150px; padding:5px">
+                <h3 style="padding:10px">1. Spending time outdoors reduces stress
+                </h3>
+                <p>There’s a reason why there’s a smile on everyone’s face after they’ve come back from an active adventure – because they’re happier for it! All the stresses of life just melt away as you travel among stunning scenery. Australians are some
+                    of the most stressed out people in the world, with a report finding that stress levels have been rising around the country.
+                </p>
+            </div>
+            <div class="col-2" style="height:75%">
+                <img src="./images/exerciseAD.jpg" style="width: 250px;height:150px; padding:5px">
+                <h3 style="padding:10px">2. Nature makes exercise easier</h3>
+                <p>There’s a reason why there’s a smile on everyone’s face after they’ve come back from an active adventure.If you're looking for a way to get fit the easy way, fool your mind and go on an active adventure in nature where it's "green".
+                </p>
+            </div>
+            <div class="col-1">
+                <img src="./images/advantage2.jpg" style="width: 250px;height:150px; padding:5px">
+                <h3 style="padding:10px">3. Gain a sense of accomplishment</h3>
+                <p>Regardless of age and size, taking on an overseas adventure can create feelings associated with personal achievement. The more difficult the trek and the greater the challenge, the more sense of achievement we feel when we accomplish those
+                    goals.Whether you’re trekking Kilimanjaro, climbing Island Peak, cycling the Andes or adventure touring the Silk Road.</p>
+            </div>
+            <div class="col-2" style="height:85%">
+                <img src="./images/Nepalese-Children-Annapurna-639826-950px.jpg" style="width: 250px;height:150px; padding:5px">
+                <h3 style="padding: 10px;">4. Know that you're making a difference when you travel ethically</h3>
+                <p> such as in earthquake-affected region in Nepal or remote Huilloc communities in need of healthy cook stovessocial and community welfare and sustainable development – check out our Thoughtful Traveller guidebook.</p>
+            </div>
+            <div class="col-1">
+                <img src="./images/getting_new_friend.jpg" style="width: 250px;height:150px; padding:5px">
+                <h3 style="padding:10px">5. Getting new friendships</h3>
+                <p>Take an adventure and gain a friend. If there's one benefit from an overseas adventure that'll leave you with the warm and fuzzy's, this is it. Embarking on a challenge with other people can bring you closer together; sharing the trials
+                    and the triumphs gives you something to bond over and forms relationships that'll embed deep in your memories.Whether you're trekking to Mont Blanc or rafting the Franklin River in Tasmania</p>
+
+            </div>
+            <div class="col-2" style="height:65%">
+                <img src="./images/learn_new.jpg" style="width: 180px;height:150px; padding:5px">
+                <h3>6. Learn new skills</h3>
+                <p>If you ever want to brush up on your skills, a trip abroad is all you need. The experiences gained from entering new surroundings and immersing yourself in their culture creates excites challenges that can enable you to expand your skill
+                    set.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class=""></div>
+</body>
+
+</html>
