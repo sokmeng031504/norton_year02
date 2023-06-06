@@ -1,0 +1,10 @@
+.text {
+    background-color: red;
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+}
+
+.text p {
+    text-align: center;
+}

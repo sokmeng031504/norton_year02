@@ -1,0 +1,75 @@
+body {
+    margin: 0px;
+    background-color: aqua;
+}
+
+.wrap {
+    margin: 0 auto;
+    background-color: white;
+    width: 70%;
+    height: 1000px;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    background-color: pink;
+}
+
+.logo {
+    width: 40%;
+    height: 200px;
+    float: left;
+}
+
+.logo img {
+    height: 200px;
+}
+
+.image {
+    width: 60%;
+    height: 200px;
+    float: left;
+}
+
+.image img {
+    width: 100%;
+    height: 200px;
+}
+
+.contect {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(0, 0, 0);
+    clear: left;
+}
+
+.link {
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: blue;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    color: white;
+}
+
+.image_contect img {
+    height: 600px;
+    width: 100%;
+}
+
+.contect marquee {
+    color: white;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
