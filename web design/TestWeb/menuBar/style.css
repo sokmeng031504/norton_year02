@@ -465,7 +465,7 @@ a {
     padding: 10px 10px;
 }
 
-@media (max-width:858px) {
+@media only screen and (max-width:858px) and (max-width:929px) and (min-width:600px) and (min-width:900px) and (min-width:787px) {
     .col-1,
     h3 {
         width: 70%;
@@ -483,7 +483,7 @@ a {
     }
 }
 
-@media (max-width:929px) {
+@media (max-width:898px) {
     .col-1,
     .col-2 h3 {
         width: 70%;
@@ -500,6 +500,15 @@ a {
         text-align: center;
         margin: 0 auto;
         margin-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 759px) {
+    .col-2 h3 {
+        font-size: 2em;
+    }
+    .col-1 h3 {
+        font-size: 2em;
     }
 }
 

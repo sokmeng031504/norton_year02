@@ -1,0 +1,9 @@
+/* * {
+    background-color: RED;
+} */
+
+body {
+    background-repeat: fixed;
+    background-position: center;
+    background-attachment: fixed;
+}
